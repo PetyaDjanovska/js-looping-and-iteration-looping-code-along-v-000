@@ -6,13 +6,9 @@ function printBadges (nameArray) {
   return nameArray;
 }
 
-function condition() {
-  return Math.random() >= 0.5;
-}
-
 function tailsNeverFails() {
-  let count = 1;
-	while (condition()) {
+  let count = 0;
+	while (Math.random() >= 0.5) {
     count++;
   }
   console.log(`You got ${count} tails in a row!`)
