@@ -6,6 +6,10 @@ function printBadges (nameArray) {
   return nameArray;
 }
 
+function condition() {
+  return Math.random() >= 0.5;
+}
+
 function tailsNeverFails() {
   let count = 0;
 	while (Math.random() >= 0.5) {
