@@ -11,7 +11,7 @@ function condition() {
 }
 
 function tailsNeverFails() {
-  let count = 0;
+  let count = 1;
 	while (condition()) {
     count++;
   }
